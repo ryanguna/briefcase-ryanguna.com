@@ -16,6 +16,8 @@
                         {{project.description}}
                     </p>
                 </v-card-text>
+
+
           </v-flex>
 
          

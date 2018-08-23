@@ -2,7 +2,9 @@
   <v-app>
     <v-content>
       <v-container fluid grid-list-xs style="padding:0px;">
-        <v-parallax height="300" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>
+        <!--<v-parallax height="300" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>-->
+
+        <!--<v-parallax height="600" src="https://i.imgur.com/OuSizUw.jpg"></v-parallax>-->
           <v-layout row >
             <v-flex xs12 sm6 offset-xs0 offset-sm3 align-center>
               <v-card  class="card--flex-toolbar" >
@@ -44,7 +46,7 @@ export default {
 
 <style>
  .card--flex-toolbar {
-    margin-top: -64px;
+    margin-top: 200px;
   }
 </style>
 

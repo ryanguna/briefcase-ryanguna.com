@@ -10,8 +10,8 @@
           <v-flex v-for="project in projects" :key="project.name" xs12 sm12>
             <v-card  style="border-bottom: 1px solid #dbdcdb !important; margin-bottom: 5px; margin-top:5px;" flat height="253">
 
-              <v-layout fill-height align-end  v-if="project.align == 'left'">
-                <v-flex xs5 >
+              <v-layout fill-height row wrap align-end  v-if="project.align == 'left'">
+                <v-flex xs12 sm5 >
                  <v-card hover flat height="218" style="overflow:hidden !important; ">
 
 
@@ -40,7 +40,7 @@
                    </v-card>
                 </v-flex>
 
-                <v-flex xs7>
+                <v-flex xs12 sm7>
                   <v-card-text class="px-5">
 
 
@@ -55,10 +55,10 @@
               </v-layout>
 
 
-              <v-layout fill-height align-end v-else>
+              <v-layout fill-height row wrap align-end v-else>
 
 
-                <v-flex xs7 >
+                <v-flex xs12 sm7>
                   <v-card-text class="px-5">
                     <blockquote class="blockquote mb-4">
                       <div class="headline">{{project.name}}</div>
@@ -68,7 +68,7 @@
                   </v-card-text>
                 </v-flex>
 
-                <v-flex xs5>
+                <v-flex xs12 sm5>
                   <v-card flat hover height="218" style="overflow:hidden !important;">
 
 

@@ -14,10 +14,13 @@ export default {
   components: {
     Logo,
     VuetifyLogo
+  },
+  mounted(){
+    this.$router.push('/portfolio')
   }
 }
 </script>
 
 <style>
- 
+
 </style>

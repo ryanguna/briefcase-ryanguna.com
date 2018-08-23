@@ -1,10 +1,10 @@
 <template>
   <v-app>
-    <v-content>
-      <v-container fluid  style="padding:0px;">
+    <v-content >
+      <v-container  fluid  style="padding:0px;">
         <!--<v-parallax height="300" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>-->
 
-        <!--<v-parallax height="600" src="https://i.imgur.com/OuSizUw.jpg"></v-parallax>-->
+        <!--<v-parallax height="600" src="http://annwalls.xyz/wp-content/uploads/2018/03/Sunrise-Mountain-Landscape-Wallpaper.jpg"></v-parallax>-->
           <v-layout row style="padding:0px;">
             <v-flex xs12 sm12 md10 lg6 offset-xs0 offset-sm0 offset-md1 offset-lg3 >
               <v-card  class="card--flex-toolbar" >
@@ -29,6 +29,7 @@
                     <v-btn flat icon color="grey darken-2">
                       <v-icon>fab fa-linkedin</v-icon>
                     </v-btn>
+
 
                   </v-tabs>
 
@@ -58,7 +59,7 @@ export default {
 
 <style>
  .card--flex-toolbar {
-    margin-top: 150px;
+    margin-top: 120px;
    padding:0px;
   }
  .application {

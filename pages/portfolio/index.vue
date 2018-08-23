@@ -51,7 +51,7 @@
 
 
                     <blockquote class="blockquote mb-4">
-                      <div class="title font-weight-regular" style="margin-bottom:14px;">{{project.name}}</div>
+                      <div class="title font-weight-regular"  style="margin-bottom:12px;">{{project.name}}</div>
                       <div class="body-2 font-weight-thin">{{project.description}}</div>
 
                     </blockquote>
@@ -69,7 +69,7 @@
                   <v-card-text class="px-4">
 
                     <blockquote class="blockquote mb-4">
-                      <div class="title font-weight-regular" style="margin-bottom:14px;">{{project.name}}</div>
+                      <div class="title font-weight-regular" style="margin-bottom:12px;">{{project.name}}</div>
                       <div class="body-2 font-weight-thin">{{project.description}}</div>
                     </blockquote>
 

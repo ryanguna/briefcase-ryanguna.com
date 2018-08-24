@@ -2,9 +2,12 @@
 
 Briefcase is a project that contains my portfolio
 
+## Briefcase
+
 * Vue.js
 * Nuxt.js
 * HTML5
+* Babel
 * Webpack
 * CSS3
 

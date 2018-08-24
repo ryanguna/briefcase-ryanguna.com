@@ -1,6 +1,6 @@
-# <a href='http://michaelsilva.io'><img src='https://dl.dropboxusercontent.com/s/2042wlthpkfzjcv/banner-github-personal-page.png' height='50'></a>
+## Briefcase
 
-Personal Page is a project that contains a person's personal information and resume. It was initially created for the processing of the freeCodeCamp map. The following tools / frameworks / technologies are being used:
+Briefcase is a project that contains my portfolio
 
 * Vue.js
 * Nuxt.js
@@ -8,9 +8,9 @@ Personal Page is a project that contains a person's personal information and res
 * Webpack
 * CSS3
 
-## Team
+## Website
 
-Personal Page was made with love by these people and a bunch of awesome [contributors](https://github.com/MichaelRSilva/PersonalPage).
+Personal Page was made with love by these people and a bunch of awesome [contributors](https://ryanguna.com).
 
 
 ## Build Setup

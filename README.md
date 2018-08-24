@@ -10,7 +10,7 @@ Briefcase is a project that contains my portfolio
 
 ## Website
 
-Visit my site at [ryanguna.com](https://ryanguna.com)
+Visit my site at [ryanguna.com](http://ryanguna.com)
 
 
 ## Build Setup

@@ -2,10 +2,11 @@
 
 Personal Page is a project that contains a person's personal information and resume. It was initially created for the processing of the freeCodeCamp map. The following tools / frameworks / technologies are being used:
 
+* Vue.js
+* Nuxt.js
 * HTML5
+* Webpack
 * CSS3
-* SASS
-* Gulp
 
 ## Team
 

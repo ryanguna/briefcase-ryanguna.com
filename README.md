@@ -1,6 +1,6 @@
 ## Briefcase
 
-Briefcase is a project that contains my portfolio
+Briefcase is my personal website that showcases my projects and contributions
 
 ## Tools
 

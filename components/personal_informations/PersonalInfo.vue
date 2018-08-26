@@ -1,17 +1,17 @@
 <template>
 <div>
-  <v-layout row >
+  <v-card>
+  <v-layout row wrap>
 
-    <v-flex xs2>
-      <blockquote class="blockquote ">
-        <v-avatar  size="120"   style="margin-top:5px; " >
-          <img :src="profile.avatar" alt="avatar">
-        </v-avatar>
-      </blockquote>
+
+    <v-flex xs12 sm2 text-xs-center >
+      <v-avatar  size="110"   style="margin-top:36px; " >
+        <img :src="profile.avatar" alt="avatar">
+      </v-avatar>
 
     </v-flex>
 
-    <v-flex xs10 align-left text-xs-left>
+    <v-flex xs12 sm10 align-left text-xs-center text-sm-left>
 
 
       <v-card-text>
@@ -20,7 +20,11 @@
 
           <div class="headline font-weight-regular" >{{profile.name}}</div>
 
-          <div class="caption font-weight-medium">{{profile.position}}</div>
+          <div class="subheading font-weight-regular">{{profile.position}}</div>
+          <div class="caption font-weight-medium">
+            <v-icon size="12">fas fa-envelope</v-icon>
+            ryanmgunawardana@gmail.com</div>
+
 
           <div class="caption font-weight-thin">{{profile.aboutMe}}</div>
 
@@ -32,7 +36,9 @@
 
 
     </v-flex>
+
   </v-layout>
+  </v-card>
 </div>
     
 

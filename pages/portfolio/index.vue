@@ -97,7 +97,7 @@
                <v-layout row wrap align-end fill-height>
 
                  <v-flex xs12 sm5 >
-                   <v-card hover flat height="240" style="overflow:hidden !important; ">
+                   <v-card hover flat height="220" style="overflow:hidden !important; ">
                      <v-system-bar height="22" style="background-color:rgba(0, 0, 0, .1) !important"  window dark lights-out >
                        <v-icon style="font-size:12px;" color="red lighten-1">fas fa-circle</v-icon>
                        <v-icon style="font-size:12px;" color="orange lighten-1">fas fa-circle</v-icon>
@@ -105,7 +105,7 @@
                      </v-system-bar>
                      <v-card-media
                        style="
-                      height: 290px;
+                      height: 220px;
                       background-position: center;
                       background-repeat: no-repeat;
                       text-rendering: optimizelegibility;
@@ -117,8 +117,8 @@
                    </v-card>
                  </v-flex>
                  <v-flex xs12 sm7>
-                   <v-card  flat height="310">
-                     <v-card-text class="px-4">
+                   <v-card  flat height="400">
+                     <v-card-text class="px-3">
                        <blockquote class="blockquote mb-4">
                          <div class="title font-weight-regular"  style="margin-bottom:12px;">{{project.name}}</div>
                          <div class="body-2 font-weight-thin">{{project.description}}</div>
